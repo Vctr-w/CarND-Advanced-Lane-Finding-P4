@@ -13,7 +13,7 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[raw_calib]: ./images_for_report/raw_calibration.png "Raw calibration image"
+[raw_calib]: ./images_for_report/raw_calibration.jpg "Raw calibration image"
 [undistort_calib]: ./images_for_report/undistorted_calibration.png "Undistorted calibration image"
 [raw_test]: ./images_for_report/raw_test.jpg "Raw test image"
 [undistort_test]: ./images_for_report/undistorted_test.png "Undistorted test image"
