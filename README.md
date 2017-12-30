@@ -55,8 +55,8 @@ Specifically a white pixel is one where the following conditions are met
 (Sobel_x & Sobel_y) | (S_thresh & V_thresh)
 ```
 
-Sobel_x - Sobel operator in x orientation on a greyscale image where the values are thresholded between 5 and 255
-Sobel_y - Sobel operator in x orientation on a greyscale image where the values are thresholded between 5 and 255
+Sobel_x - Sobel operator in x orientation on a greyscale image where the values are thresholded between 35 and 255
+Sobel_y - Sobel operator in x orientation on a greyscale image where the values are thresholded between 35 and 255
 S_thresh - S in HLS image thresholded between 150 and 255
 V_thresh - V in HSV image thresholded between 150 and 255
 
@@ -68,10 +68,10 @@ A perspective transform is used to map the traffic lane to a bird's eye view fro
 
 | Source        | Destination   | 
 |:-------------:|:-------------:| 
-| 598, 446      | 250, 0        | 
-| 683, 446      | 1030, 0       |
+| 575, 460      | 250, 0        | 
+| 706, 460      | 1030, 0       |
 | 1064, 681     | 1030, 720     |
-| 241, 681      | 250, 720      |
+| 238, 681      | 250, 720      |
 
 To verify that the perspective transform has been performed correctly, a transform was performed on an image of a straight length of road and its warped counterpart was observed to have vertical parallel lines. 
 
